@@ -1,0 +1,23 @@
+film.json da go iskoristite za da ja potpolnite kolekcijata
+
+1. Da se kreira nova data baza so ime netliks
+2. Vo novata data baza da se kreira movies kolekcija
+3. Da se kreira express aplikacija i da se instalira mongoose
+4. So pomosh na mongoose da se konektirame vo data bazata
+5. Da definirame ruti so: get, post, patch i delete metoda
+6. Na definiranite ruti vo zavisnost od metodite da kreirame funkcii
+7. Da imame 2 get http metodi, ednata za dobivanje na celosna kolekcija
+8. Drugata metoda za dobivanje na film spored ID(req.params.id)
+9. So Post metodata da mozeme da kreirame nov film
+10. Shemata na MongoDB kolekcijata da e bazirana kako film.json
+11. So Patch metodata da mozeme da azurirame film od nashata kolekcija spored ID(req.params.id)
+12. So Delete metodata da mozeme da izbrisime film od nashta kolekcija spored ID(req.params.id)
+
+aplikacijata kako req.body da prifakja JSON fajlovi
+
+///////////
+
+ property.deleteMany() so ovaa metoda mozeme da gi izbrisime site dokumenti vo nashata kolekcija
+ property.deleteMany(uslov) ako zapisime uslov vo ovaa metoda togash kje gi izbrisime site 
+ dokumenti sto odgovaraat na nashiot uslov
+ // primer await Blog.deleteMany({ Year: '2007' }); 
