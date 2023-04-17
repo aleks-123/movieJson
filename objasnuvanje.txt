@@ -21,6 +21,7 @@ aplikacijata kako req.body da prifakja JSON fajlovi
  property.deleteMany(uslov) ako zapisime uslov vo ovaa metoda togash kje gi izbrisime site 
  dokumenti sto odgovaraat na nashiot uslov
  // primer await Blog.deleteMany({ Year: '2007' }); 
+ ////
 
 
  ova sega kje go pravime taka
